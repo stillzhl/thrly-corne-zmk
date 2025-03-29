@@ -1,8 +1,13 @@
 # thrly's ZMK configuration
 
+![](https://github.com/thrly/thrly-corne-zmk/actions/workflows/build.yml)
+
 > This config is for a 6-col corne (wireless version from [Typeractive](https://typeractive.xyz/)), but I'm gradually trying to wittle it down to a smaller custom 36-key 5-col that I'm designing myself...
 
 For more explanations and reflections on this customization, see [my blog post](https://thrly.com/blog/thoughts-on-customising-a-split-keyboard-layout/) on this keymap.
+
+> [!WARNING]
+> This is my personal daily driver keyboard config, it is under active development. Expect tweaking and occasional breaking changes. Documentation may be missing or out of sync with the latest commits. Proceed with caution.
 
 ![cat paws and keyboard closeup](./img/cat-corne.jpg)
 
@@ -20,6 +25,8 @@ For more explanations and reflections on this customization, see [my blog post](
   - escape (`Q`+`W`)
   - delete (`O`+`P`)
 - double-tap `>` for `=>` arrow
+> [!IMPORTANT]
+> Home Row Mods are now standard.
 
 ## Layers
 
