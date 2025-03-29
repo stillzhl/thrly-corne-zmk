@@ -1,6 +1,6 @@
 # thrly's ZMK configuration
 
-![](https://github.com/thrly/thrly-corne-zmk/actions/workflows/build.yml)
+![](https://github.com/thrly/thrly-corne-zmk/actions/workflows/build.yml/badge.svg)
 
 > This config is for a 6-col corne (wireless version from [Typeractive](https://typeractive.xyz/)), but I'm gradually trying to wittle it down to a smaller custom 36-key 5-col that I'm designing myself...
 
