@@ -46,13 +46,13 @@ For more explanations and reflections on this customization, see [my blog post](
 
 ![Num keymap diagram](./img/corne-num-layer.png)
 
-## Dependencies
+### Layer 4
 
-- https://github.com/M165437/nice-view-gem
-- ~https://github.com/urob/zmk-helpers~ (temporarily depreciated)
-- ~https://github.com/urob/zmk-config~ (temporarily depreciated)
+Nothing special here, left side features bluetooth connection profiles, right side has mouse controls with more room for buttons than on the Nav layer. \[TODO: add image]
 
-(I was having a few build errors while trying to use urob's elements so I've moved to the ZMK docs' 'balanced' HRM implementation until I fix it, and I've been happy with this.)
+## Other
+
+- https://github.com/M165437/nice-view-gem - This is purely aesthetic and gives some more user feedback on the nice!view displays.
 
 ## Notes
 
