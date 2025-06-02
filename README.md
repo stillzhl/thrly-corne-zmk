@@ -24,7 +24,11 @@ For more explanations and reflections on this customization, see [my blog post](
   - caps word / caps lock (`G`+`J` / `T`+`Y`)
   - escape (`Q`+`W`)
   - delete (`O`+`P`)
-- double-tap `>` for `=>` arrow
+  - dash, underscore (`E`+`R`, `U`+`I`) 
+- Macros:
+  - double-tap `>` for `=>` arrow
+  - en-dash (` -- `) combo (`W`+`E`+`R`)
+  - `console.log(` combo (`Q`+`R`+`U`+`P`) via an AutoHotkey macro set to `F19` : `F19:: send "console.log("`
 > [!IMPORTANT]
 > Home Row Mods are now standard.
 
