@@ -83,6 +83,11 @@
             bindings = <&emdsh>;
             key-positions = <2 3 4>;
         };
+
+        console.log {
+            bindings = <&consolelog>;
+            key-positions = <1 4 7 10>;
+        };
     };
 
     macros {
@@ -102,6 +107,16 @@
                 <&macro_press>;
 
             label = "EMDSH";
+        };
+
+        consolelog: consolelog {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&none &kp C &kp O &kp N &kp S &kp O &kp L &kp E &kp DOT &kp L &kp O &kp G &kp LPAR>,
+                <&macro_press>;
+
+            label = "CONSOLELOG";
         };
     };
 
