@@ -68,6 +68,21 @@
             bindings = <&kp DELETE>;
             key-positions = <10 9>;
         };
+
+        underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <7 8>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <4 3>;
+        };
+
+        em-dash {
+            bindings = <&emdsh>;
+            key-positions = <2 3 4>;
+        };
     };
 
     macros {
@@ -77,6 +92,16 @@
             bindings = <&kp EQUAL &kp GT>, <&macro_press>;
 
             label = "ARROW_FUNC";
+        };
+
+        emdsh: emdsh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp SPACE &kp MINUS &kp MINUS &kp SPACE>,
+                <&macro_press>;
+
+            label = "EMDSH";
         };
     };
 
